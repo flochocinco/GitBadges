@@ -14,7 +14,7 @@
 
   <!-- Targets -->
 
-  <target name="compile" depends="resolve" description="Compile all sources.">
+  <target name="compile" description="Compile all sources.">
     <mkdir dir="${dist.dir}"/>
     <mkdir dir="${build.dir}/classes"/>
     <javac srcdir="${src.dir}" destdir="${build.dir}/classes"
@@ -58,7 +58,7 @@
     <delete file="cache.properties"/>
   </target>
 
-  <target name="javadoc" depends="resolve,compile"
+  <target name="javadoc" depends="compile"
           description="Generate documentation.">
     <taskdef classname="lombok.delombok.ant.DelombokTask" name="delombok"
              classpathref="build.classpath"/>
