@@ -87,7 +87,7 @@
     <mkdir dir="build/test-reports"/>
     <junit printsummary="true" haltonfailure="true" failureproperty="test.failures">
       <assertions>
-        <enabled/>
+        <enable/>
       </assertions>
       <classpath>
         <pathelement path="build/test-classes"/>
