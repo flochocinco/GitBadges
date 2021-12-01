@@ -85,7 +85,10 @@
     </javac>
 
     <mkdir dir="build/test-reports"/>
-    <junit printsummary="true">
+    <junit printsummary="true" haltonfailure="true" failureproperty="test.failures">
+      <assertions>
+        <enabled/>
+      </assertions>
       <classpath>
         <pathelement path="build/test-classes"/>
         <pathelement path="build/classes"/>
