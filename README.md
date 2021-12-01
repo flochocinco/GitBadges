@@ -4,7 +4,7 @@ Repo to test badges and Automatic Operations
 [![Build](https://github.com/flochocinco/GitBadges/actions/workflows/javabuild.yml/badge.svg)](https://github.com/flochocinco/GitBadges/actions/workflows/javabuild.yml)
 [![Unit Test](https://github.com/flochocinco/GitBadges/actions/workflows/default.yml/badge.svg)](https://github.com/flochocinco/GitBadges/actions/workflows/default.yml)
 
-##What it does
+## What it does
 when pushing or pulling:
  - run unit test (see .workflows/default.yml)
  - run build only when pushing a java file
