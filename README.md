@@ -5,6 +5,7 @@ Repo to test badges and Automatic Operations
 [![Unit Test](https://github.com/flochocinco/GitBadges/actions/workflows/default.yml/badge.svg)](https://github.com/flochocinco/GitBadges/actions/workflows/default.yml)
 
 ## STATUS
-2. Now I have a badge from "Actions". It seems I don't get last result :( one failed is enough to display the red banner
-1. At this point I'm only able to run a javac...youpi !
+* 2 badges: one for build and one for test. both same xml file but different .yml
+* Now I have a badge from "Actions". It seems I don't get last result :( one failed is enough to display the red banner
+* At this point I'm only able to run a javac...youpi !
  
