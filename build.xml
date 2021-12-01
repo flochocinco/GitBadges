@@ -93,7 +93,7 @@
       </classpath>
       <formatter type="xml"/>
       <batchtest todir="build/test-reports">
-        <fileset dir="test" includes="**/*Test.java"/>
+        <fileset dir="test" includes="**/*Tester.java"/>
       </batchtest>
     </junit>
   </target>
