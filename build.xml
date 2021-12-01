@@ -102,7 +102,6 @@
         <pathelement path="${build.dir}/instrumented"/>
         <pathelement path="${build.dir}/classes"/>
         <pathelement path="${build.dir}/test"/>
-        <fileset dir="lib" includes="*.jar"/>
         <path refid="test.classpath"/>
       </classpath>
       <sysproperty key="net.sourceforge.cobertura.datafile"
