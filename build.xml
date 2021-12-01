@@ -80,6 +80,7 @@
     <javac srcdir="${test.dir}" destdir="${build.dir}/test"
            optimize="on" debug="on" deprecation="on"
            classpath="${build.dir}/classes" includeantruntime="no">
+      <fileset dir="lib" includes="*.jar"/>
       <compilerarg value="-Xlint"/>
     </javac>
     <copy todir="${build.dir}/test">
@@ -101,6 +102,7 @@
         <pathelement path="${build.dir}/instrumented"/>
         <pathelement path="${build.dir}/classes"/>
         <pathelement path="${build.dir}/test"/>
+        <fileset dir="lib" includes="*.jar"/>
         <path refid="test.classpath"/>
       </classpath>
       <sysproperty key="net.sourceforge.cobertura.datafile"
