@@ -8,4 +8,4 @@ Repo to test badges and Automatic Operations
 * 2 badges: one for build and one for test. both same xml file but different .yml
 * Now I have a badge from "Actions". It seems I don't get last result :( one failed is enough to display the red banner
 * At this point I'm only able to run a javac...youpi !
- 
+   
